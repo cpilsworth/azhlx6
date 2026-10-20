@@ -1,0 +1,33 @@
+{
+  "variantName": "questions-cta",
+  "baseBlock": "questions-cta",
+  "version": "1.0.0",
+  "created": "2026-10-20T13:50:27.000Z",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "purpose": "centred title / copy / CTA band (section titles, the 'Vous avez des questions ?' mail CTA)",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "one row, cells in any split: headings (each its own title), copy <p>/<ul>/<ol>, CTA as <p><strong><a></a></strong></p>",
+    "imageCount": 0
+  },
+  "options": [
+    { "class": "space-md", "label": "Section spacing medium" },
+    { "class": "text-center", "label": "Centred copy" },
+    { "class": "left", "label": "Left-aligned title" },
+    { "class": "lead", "label": "Lead title" }
+  ],
+  "usage": {
+    "pagesUsing": [
+      "fr/startseite/therapiegebiete/cvrm/see-the-pattrns/about-amylodosis-attr",
+      "fr/startseite/therapiegebiete/cvrm/see-the-pattrns/diagnosis",
+      "fr/startseite/therapiegebiete/cvrm/see-the-pattrns/home",
+      "fr/startseite/therapiegebiete/cvrm/see-the-pattrns/symptomes",
+      "fr/startseite/therapiegebiete/cvrm/see-the-pattrns/treatement"
+    ],
+    "reuseCount": 5,
+    "lastUsed": "2026-10-20T13:50:27.000Z"
+  }
+}

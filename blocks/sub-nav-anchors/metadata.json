@@ -1,0 +1,22 @@
+{
+  "variantName": "sub-nav-anchors",
+  "baseBlock": "sub-nav",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "In-page anchor navigation bar with vertical separators, horizontally scrollable with arrow buttons on overflow; highlights the section in view",
+    "notes": [
+      "Existing sub-nav (page links, current-page highlight) is ~70% similar; this is an in-page anchor bar with yellow vertical separators and a scroll arrow."
+    ]
+  },
+  "contentPattern": {
+    "structure": "one row, one cell holding a <ul>; one <li><a href=\"#anchor\">label</a></li> per in-page target (target ids must exist on the page)",
+    "observed": [
+      "In-page navigation: Anchor links: Définition, Symptômes, Diagnostic, Traitement, Exacerbations, Recommandations, FAQ"
+    ]
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Use once near the top of long single-page articles to jump to sections.",
+  "reuseGuidance": "For links to other pages of a mini-site use sub-nav instead.",
+  "sourceUrl": "https://www.myastrazeneca.ch/fr/startseite/therapiegebiete/ri/copd.html"
+}

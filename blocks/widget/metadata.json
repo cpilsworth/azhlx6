@@ -1,0 +1,14 @@
+{
+  "variantName": "widget",
+  "baseBlock": "widget",
+  "version": "1.0.0",
+  "created": "2026-10-20T13:49:43.000Z",
+  "visualCharacteristics": {
+    "purpose": "Loader for code-based widgets: a link to /widgets/<path>/<name>.html is replaced by that widget's HTML, CSS and JS (query params become data attributes)"
+  },
+  "contentPattern": {
+    "structure": "one row, one cell holding a single link to /widgets/<path>/<name>.html (bare /widgets/ links in content are auto-blocked into this block)",
+    "buttonCount": 0,
+    "imageCount": 0
+  }
+}

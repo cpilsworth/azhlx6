@@ -1,0 +1,22 @@
+{
+  "variantName": "accordion-faq",
+  "baseBlock": "accordion",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "purpose": "FAQ list of collapsible question/answer items with right chevrons, dividers and tinted answer panels",
+    "notes": [
+      "No project accordion; FAQ list with magenta serif questions, right chevrons, grey dividers and tinted answer panels."
+    ]
+  },
+  "contentPattern": {
+    "structure": "question cell (plain text or heading) and answer cell (paragraphs, lists, small footnotes)",
+    "observed": [
+      "FAQ: Six question/answer accordion items"
+    ]
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Use for FAQ sections; one block per FAQ list.",
+  "reuseGuidance": "Reuse for any collapsible question/answer list.",
+  "sourceUrl": "https://www.myastrazeneca.ch/fr/startseite/therapiegebiete/ri/copd.html"
+}

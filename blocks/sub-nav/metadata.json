@@ -1,0 +1,28 @@
+{
+  "variantName": "sub-nav",
+  "baseBlock": "sub-nav",
+  "version": "1.0.0",
+  "created": "2026-10-20T13:49:43.000Z",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "Mini-site sub-navigation: white horizontally scrolling strip with a full-width bottom border, one link per page, the current page highlighted and centred",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "one row, one cell holding a <ul>; one <li><a href>label</a></li> per page of the mini-site",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "usage": {
+    "pagesUsing": [
+      "fr/startseite/therapiegebiete/cvrm/see-the-pattrns/home",
+      "fr/startseite/therapiegebiete/cvrm/see-the-pattrns/about-amylodosis-attr",
+      "fr/startseite/therapiegebiete/cvrm/see-the-pattrns/symptomes",
+      "fr/startseite/therapiegebiete/cvrm/see-the-pattrns/diagnosis",
+      "fr/startseite/therapiegebiete/cvrm/see-the-pattrns/treatement"
+    ],
+    "reuseCount": 5,
+    "lastUsed": "2026-10-20T13:49:43.000Z"
+  }
+}

@@ -1,0 +1,64 @@
+/* table-bordered — source `.text` module holding a legacy `<table border="1" cellpadding="1"
+   cellspacing="0" width="100%">`: separated 1px outset/inset grey borders (#808080), 1px cell
+   padding, every cell paragraph indented 40px, middle-aligned plain Inter 16/24 text, no
+   backgrounds, plain header row. Bold labels come from authored <strong> only. */
+.table-bordered {
+  /* source: 16px module gap + 24px empty spacer <p> above; 16px module gap below.
+     Inline gutter aligns with default content (block wrappers carry no gutter). */
+  margin: 40px var(--gutter) 16px;
+}
+
+@media (width >= 768px) {
+  .table-bordered {
+    margin-inline: 0;
+  }
+}
+
+.table-bordered .table-bordered-scroll {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.table-bordered table {
+  width: 100%;
+  max-width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px outset #808080;
+  color: var(--text-color-body-1);
+  font-family: var(--font-body);
+  font-size: var(--body-font-size-m);
+  line-height: var(--body-line-height-m);
+}
+
+/* 1px cellpadding + the 40px margin-left the source puts on every cell <p> */
+.table-bordered th,
+.table-bordered td {
+  padding: 1px 1px 1px 41px;
+  border: 1px inset #808080;
+  text-align: left;
+  vertical-align: middle;
+  overflow-wrap: break-word;
+}
+
+/* source header row is plain <td>s, not bold */
+.table-bordered th {
+  font-weight: 400;
+}
+
+.table-bordered :is(th, td) p {
+  margin: 0;
+}
+
+/* in-cell lists are not indented by the paragraph margin (source ul sits at the cell edge) */
+.table-bordered :is(th, td) :is(ul, ol) {
+  margin: 0 0 0 -40px;
+  padding: 4px 0 12px 20px;
+  list-style-position: outside;
+}
+
+.table-bordered :is(th, td) li {
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,22 @@
+{
+  "variantName": "hidden-section",
+  "baseBlock": "hidden-section",
+  "version": "1.0.0",
+  "created": "2026-10-20T13:50:27.000Z",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "purpose": "hidden personalisation container (section title only; the whole section is hidden by CSS)",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "one row, one cell holding the section <h2>; any further nodes move into the (hidden) text slot",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "usage": {
+    "pagesUsing": ["fr/startseite"],
+    "reuseCount": 1,
+    "lastUsed": "2026-10-20T13:50:27.000Z"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "variantName": "intro-media",
+  "baseBlock": "intro-media",
+  "version": "1.0.0",
+  "created": "2026-10-20T13:50:27.000Z",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "purpose": "therapy-area intro text with optional media figure",
+    "imagePattern": "single"
+  },
+  "contentPattern": {
+    "structure": "one row, cells in any split: optional picture (plain or linked video poster) as the media figure, then intro copy as <p> paragraphs and <ul>/<ol> lists",
+    "buttonCount": 0
+  },
+  "usage": {
+    "pagesUsing": [
+      "fr/startseite/therapiegebiete/cvrm/herzinsuffizienz",
+      "fr/startseite/therapiegebiete/cvrm/diabetes",
+      "fr/startseite/therapiegebiete/cvrm/chronischeniereninsuffizienz"
+    ],
+    "reuseCount": 3,
+    "lastUsed": "2026-10-20T13:50:27.000Z"
+  }
+}

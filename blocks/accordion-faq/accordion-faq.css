@@ -1,0 +1,110 @@
+/* accordion-faq — source: .accordion.panelcontainer (cmp-accordion, wese-hcp-portal-v1 theme).
+   Stacked <details> items; Lexia 26/34 mulberry questions with a Font Awesome chevron
+   (right when closed, down when open); answers on a supporting-1 panel. The source item
+   divider and answer panel run edge to edge, so both are painted past the 1180px section cap
+   with border-image outsets (ink overflow only: no layout shift, no horizontal scroll). */
+.accordion-faq .accordion-faq-item {
+  position: relative;
+}
+
+.accordion-faq .accordion-faq-item-label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 16px 12px;
+  border-bottom: 1px solid var(--border-color-1);
+  border-image: linear-gradient(var(--border-color-1), var(--border-color-1)) 0 0 1 0 / 0 0 1px 0 / 0 100vw;
+  font-family: var(--font-display);
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 34px;
+  color: var(--text-color-body-1);
+  text-align: left;
+  cursor: pointer;
+  list-style: none;
+}
+
+.accordion-faq .accordion-faq-item-label::-webkit-details-marker {
+  display: none;
+}
+
+.accordion-faq .accordion-faq-item-title {
+  width: 100%;
+  color: var(--text-color-title-1);
+}
+
+.accordion-faq .accordion-faq-item-label::after {
+  content: "\f054";
+  flex-shrink: 0;
+  position: relative;
+  width: 20px;
+  height: 36px;
+  font-family: "Font Awesome", sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 36px;
+  text-align: center;
+  color: var(--text-color-body-1);
+}
+
+.accordion-faq .accordion-faq-item[open] > .accordion-faq-item-label::after {
+  content: "\f078";
+}
+
+.accordion-faq .accordion-faq-item-body {
+  padding: 30px 16px;
+  border-image: linear-gradient(var(--bg-color-supporting-1), var(--bg-color-supporting-1)) fill 0 / 0 / 0 100vw;
+  background-color: var(--bg-color-supporting-1);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--text-color-body-1);
+}
+
+.accordion-faq .accordion-faq-item-body p {
+  margin: 0;
+}
+
+.accordion-faq .accordion-faq-item-body p + p {
+  margin-top: 24px;
+}
+
+/* footnote under an answer (source .text--small module: 12/20, .text gap 10px, 16px from 768px) */
+.accordion-faq .accordion-faq-item-body p.accordion-faq-item-note {
+  font-family: var(--font-medium);
+  font-size: var(--body-font-size-s);
+  line-height: var(--body-line-height-s);
+}
+
+.accordion-faq .accordion-faq-item-body p + p.accordion-faq-item-note {
+  margin-top: 10px;
+}
+
+.accordion-faq .accordion-faq-item-body sup {
+  font-size: 10px;
+  line-height: 0;
+}
+
+@media (width >= 768px) {
+  .accordion-faq .accordion-faq-item-label {
+    padding: 40px 20px 20px;
+  }
+
+  .accordion-faq .accordion-faq-item-body {
+    padding: 56px 20px;
+  }
+
+  .accordion-faq .accordion-faq-item-body p + p.accordion-faq-item-note {
+    margin-top: 16px;
+  }
+}
+
+@media (width >= 1280px) {
+  .accordion-faq .accordion-faq-item-label {
+    padding: 40px 0 20px;
+  }
+
+  .accordion-faq .accordion-faq-item-body {
+    padding: 56px 0;
+  }
+}

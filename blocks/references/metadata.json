@@ -1,0 +1,35 @@
+{
+  "variantName": "references",
+  "baseBlock": "references",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Small-type references footer: abbreviation notes, bold label and numbered citation list",
+    "notes": [
+      "Existing project block (blocks/references/ has .js and .css) built for this exact source component; reused."
+    ]
+  },
+  "contentPattern": {
+    "structure": "any number of rows/cells: notes as <p>, a fully bold <p> label, citations as <ol>; each further row opens a new spaced text module",
+    "observed": [
+      "Footnotes and references: Indication footnote, abbreviations, 'Références :' label and numbered references"
+    ]
+  },
+  "options": [
+    {
+      "class": "band",
+      "label": "Band"
+    },
+    {
+      "class": "space",
+      "label": "Spacing"
+    },
+    {
+      "class": "space-bottom",
+      "label": "Bottom spacing"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Small-type references footer: abbreviation notes, bold label and numbered citation list",
+  "reuseGuidance": "Existing project block; extend with option classes rather than forking.",
+  "sourceUrl": "https://www.myastrazeneca.ch/fr/startseite/therapiegebiete/ri/copd.html"
+}

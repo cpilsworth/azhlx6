@@ -1,0 +1,28 @@
+{
+  "variantName": "selfcert-modal",
+  "baseBlock": "selfcert-modal",
+  "version": "1.0.0",
+  "created": "2026-10-20T13:49:43.000Z",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "HCP self-certification gate: full-screen modal (grey backdrop, white box) that asks visitors to confirm they are healthcare professionals; the yes CTA sets a cookie and closes it",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "optional 'Mode | gate' (or 'Mode | dismissed', the default) config row, then copy rows: paragraphs, the yes CTA as <p><strong><a></a></strong></p> and the no CTA as <p><em><a></a></em></p>",
+    "buttonCount": 2,
+    "imageCount": 0
+  },
+  "usage": {
+    "pagesUsing": [
+      "fr/startseite/therapiegebiete/cvrm/see-the-pattrns/home",
+      "fr/startseite/therapiegebiete/cvrm/see-the-pattrns/about-amylodosis-attr",
+      "fr/startseite/therapiegebiete/cvrm/see-the-pattrns/symptomes",
+      "fr/startseite/therapiegebiete/cvrm/see-the-pattrns/diagnosis",
+      "fr/startseite/therapiegebiete/cvrm/see-the-pattrns/treatement"
+    ],
+    "reuseCount": 5,
+    "lastUsed": "2026-10-20T13:49:43.000Z"
+  }
+}

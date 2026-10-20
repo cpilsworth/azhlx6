@@ -1,0 +1,22 @@
+{
+  "variantName": "video-poster",
+  "baseBlock": "video",
+  "version": "1.0.0",
+  "created": "2026-10-20T13:49:43.000Z",
+  "visualCharacteristics": {
+    "purpose": "Video player in poster state: 16:9 thumbnail that loads the embedded player iframe on click",
+    "imagePattern": "full-width-16x9"
+  },
+  "contentPattern": {
+    "structure": "one row, one cell: the poster picture wrapped in a link to the player's iframe-embed URL; any other text stays below the player",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "usage": {
+    "pagesUsing": [
+      "fr/startseite/therapiegebiete/cvrm/see-the-pattrns/about-amylodosis-attr"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-10-20T13:49:43.000Z"
+  }
+}

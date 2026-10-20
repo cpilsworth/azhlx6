@@ -1,0 +1,22 @@
+{
+  "variantName": "split-teaser",
+  "baseBlock": "split-teaser",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Copy with primary CTA on the left, image on the right (stacked image-first on mobile)",
+    "notes": [
+      "Existing project block (blocks/split-teaser/ has .js and .css) built for this exact source component; reused."
+    ]
+  },
+  "contentPattern": {
+    "structure": "desktop picture (+ optional mobile picture, optionally linked), optional heading, copy paragraphs/lists, CTA as <p><strong><a></a></strong></p>; rows/cells in any split",
+    "observed": [
+      "Useful product information: Teaser: copy + 'Découvrir maintenant' CTA left, image right (teaser--text-image)"
+    ]
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Copy with primary CTA on the left, image on the right (stacked image-first on mobile)",
+  "reuseGuidance": "Existing project block; extend with option classes rather than forking.",
+  "sourceUrl": "https://www.myastrazeneca.ch/fr/startseite/therapiegebiete/ri/copd.html"
+}

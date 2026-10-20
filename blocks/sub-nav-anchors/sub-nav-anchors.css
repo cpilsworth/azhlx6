@@ -1,0 +1,127 @@
+/* sub-nav-anchors — source .container--customMenu > .text--in-page-nav-hr (text.theme.css,
+   lifted): a white strip whose 1px top/bottom rules (--border-color-1) run to the viewport
+   edges, holding one 34px row of Inter-Bold 16/18 anchor links, each preceded by a 2px
+   --bg-color-secondary-1 rule; icomoon chevrons (f053/f054) appear only when the row
+   overflows. Vertical rhythm: container 10px + module 10px (16px from 768px).
+   Horizontal inset: 16 + 16px below 768px, 20px up to the 1180px cap, 0 beyond. */
+.sub-nav-anchors {
+  padding: 20px 32px;
+  border-top: 1px solid var(--border-color-1);
+  border-bottom: 1px solid var(--border-color-1);
+
+  /* the rules bleed to the viewport edges as ink overflow (no scroll, no section hook) */
+  border-image: linear-gradient(var(--border-color-1), var(--border-color-1)) 1 / 1px 0 / 0 100vmax;
+  background-color: var(--bg-color-supporting-2);
+  color: var(--text-color-body-1);
+}
+
+.sub-nav-anchors nav {
+  position: relative;
+  display: flex;
+  height: 34px;
+}
+
+.sub-nav-anchors .sub-nav-anchors-list {
+  display: flex;
+  flex: 0 1 auto;
+  min-width: 0;
+}
+
+.sub-nav-anchors .sub-nav-anchors-list :is(ul, ol) {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sub-nav-anchors .sub-nav-anchors-list :is(ul, ol)::-webkit-scrollbar {
+  display: none;
+}
+
+.sub-nav-anchors .sub-nav-anchors-list li {
+  display: block;
+  flex: 0 0 auto;
+  margin: 0;
+  padding: 8px 16px;
+  border-left: 2px solid var(--bg-color-secondary-1);
+  font-family: var(--font-bold);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+  color: var(--bg-color-core-3);
+  white-space: nowrap;
+}
+
+.sub-nav-anchors .sub-nav-anchors-list a:any-link {
+  font-family: inherit;
+  font-weight: inherit;
+  color: inherit;
+  text-decoration: underline;
+}
+
+.sub-nav-anchors .sub-nav-anchors-list a:hover {
+  color: var(--text-color-interaction);
+}
+
+.sub-nav-anchors .sub-nav-anchors-list a:active {
+  color: var(--text-color-title-1);
+}
+
+/* scroll arrows: white tabs with an icomoon chevron, shown only while the row overflows */
+.sub-nav-anchors .sub-nav-anchors-arrow {
+  display: none;
+  flex: 0 0 auto;
+  z-index: 1;
+  margin: 0;
+  padding: 6px 8px;
+  border: 0;
+  border-radius: 0;
+  background-color: var(--bg-color-supporting-2);
+  color: var(--text-color-title-2);
+  font-family: var(--font-icon);
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1;
+  text-transform: none;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+}
+
+.sub-nav-anchors .sub-nav-anchors-arrow:hover {
+  color: var(--text-color-title-1);
+  background-color: var(--bg-color-supporting-2);
+}
+
+.sub-nav-anchors .sub-nav-anchors-arrow-left::before {
+  content: "\f053";
+}
+
+.sub-nav-anchors .sub-nav-anchors-arrow-right::before {
+  content: "\f054";
+}
+
+.sub-nav-anchors.sub-nav-anchors-overflow .sub-nav-anchors-arrow {
+  display: block;
+}
+
+.sub-nav-anchors.sub-nav-anchors-overflow.sub-nav-anchors-at-start .sub-nav-anchors-arrow-left,
+.sub-nav-anchors.sub-nav-anchors-overflow.sub-nav-anchors-at-end .sub-nav-anchors-arrow-right {
+  display: none;
+}
+
+@media (width >= 768px) {
+  .sub-nav-anchors {
+    padding: 26px 20px;
+  }
+}
+
+@media (width >= 1220px) {
+  .sub-nav-anchors {
+    padding: 26px 0;
+  }
+}

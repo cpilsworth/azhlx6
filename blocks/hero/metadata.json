@@ -1,0 +1,22 @@
+{
+  "variantName": "hero",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Full-width image hero behind a dark wash with centred title and lead",
+    "notes": [
+      "Existing project block (blocks/hero/ has .js and .css) built for this exact source component; reused."
+    ]
+  },
+  "contentPattern": {
+    "structure": "picture row (desktop image), optional second picture row (mobile image), text row with <h1> headline then lead <p>; rows classified by content",
+    "observed": [
+      "Hero: Page title H1 over full-width background image (teaser--home-hero)"
+    ]
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Full-width image hero behind a dark wash with centred title and lead",
+  "reuseGuidance": "Existing project block; extend with option classes rather than forking.",
+  "sourceUrl": "https://www.myastrazeneca.ch/fr/startseite/therapiegebiete/ri/copd.html"
+}

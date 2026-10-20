@@ -1,0 +1,25 @@
+{
+  "variantName": "vivo-stamp",
+  "baseBlock": "vivo-stamp",
+  "version": "1.0.0",
+  "created": "2026-10-20T13:49:43.000Z",
+  "visualCharacteristics": {
+    "purpose": "Revision stamp ('Revision date MM/YYYY CH-NNNNN') absolutely positioned at the right edge of the container below the last band",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "one row, one cell holding the stamp paragraph(s)",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "usage": {
+    "pagesUsing": [
+      "fr/startseite",
+      "fr/startseite/therapiegebiete/cvrm/chronischeniereninsuffizienz",
+      "fr/startseite/therapiegebiete/cvrm/diabetes",
+      "fr/startseite/therapiegebiete/cvrm/herzinsuffizienz"
+    ],
+    "reuseCount": 4,
+    "lastUsed": "2026-10-20T13:49:43.000Z"
+  }
+}

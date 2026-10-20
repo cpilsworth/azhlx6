@@ -1,0 +1,59 @@
+{
+  "variantName": "image-text-band",
+  "baseBlock": "image-text-band",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Image and text side by side (stacked on mobile), optionally followed by full-width text modules",
+    "notes": [
+      "Existing project block (blocks/image-text-band/ has .js and .css) built for this exact source component; reused."
+    ]
+  },
+  "contentPattern": {
+    "structure": "teaser row: desktop picture (+ optional mobile picture), <h4>/<h3> title, copy paragraphs/lists, optional CTA <p><strong><a>; every other row is a full-width text module",
+    "observed": [
+      "Symptoms: Teaser: title 'Quels sont les symptômes typiques de la BPCO ?' + copy left, image right",
+      "Diagnosis intro: Teaser: image left, copy right (teaser--text-left)",
+      "Treatment: Teaser: title 'Traitement de la BPCO : inhalateurs, rééducation et oxygénothérapie' + copy left, image right",
+      "Exacerbations: Teaser: image left, title 'Reconnaissance d'une exacerbation aiguë de la BPCO (AECOPD)' + copy right",
+      "Act on COPD: Teaser: image left, copy and 'Découvrir maintenant' CTA right"
+    ]
+  },
+  "options": [
+    {
+      "class": "text-image",
+      "label": "Image right"
+    },
+    {
+      "class": "text-left",
+      "label": "Text left-aligned"
+    },
+    {
+      "class": "space-desktop-md",
+      "label": "Desktop spacing medium"
+    },
+    {
+      "class": "space-desktop",
+      "label": "Desktop spacing"
+    },
+    {
+      "class": "space-md",
+      "label": "Spacing medium"
+    },
+    {
+      "class": "space",
+      "label": "Spacing"
+    },
+    {
+      "class": "text-space",
+      "label": "Spacing before trailing text"
+    },
+    {
+      "class": "title-core",
+      "label": "Core-coloured title"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Image and text side by side (stacked on mobile), optionally followed by full-width text modules",
+  "reuseGuidance": "Existing project block; extend with option classes rather than forking.",
+  "sourceUrl": "https://www.myastrazeneca.ch/fr/startseite/therapiegebiete/ri/copd.html"
+}

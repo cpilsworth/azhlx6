@@ -1,0 +1,11 @@
+{
+  "type": "da",
+  "sites": {
+    "autotest": {
+      "previewOrg": "cpilsworth",
+      "previewSite": "autotest",
+      "contentHostUrl": "https://content.da.live/cpilsworth/autotest/",
+      "libraryUrl": "https://main--sta-boilerplate--aemdemos.aem.page/tools/sidekick/library.json"
+    }
+  }
+}

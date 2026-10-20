@@ -1,0 +1,15 @@
+{
+  "variantName": "fragment",
+  "baseBlock": "fragment",
+  "version": "1.0.0",
+  "created": "2026-10-20T13:50:27.000Z",
+  "visualCharacteristics": {
+    "purpose": "include a fragment page inline",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "one row, one cell holding a link (or plain-text path) to the fragment page; the fragment's sections replace the block",
+    "buttonCount": 0,
+    "imageCount": 0
+  }
+}

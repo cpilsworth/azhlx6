@@ -1,0 +1,31 @@
+{
+  "variantName": "table-bordered",
+  "baseBlock": "table",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Data table with a thin border on every cell, a plain header row and bold first-column labels",
+    "notes": [
+      "No project table block; source tables have thin black borders on every cell, a plain header row and bold first-column labels."
+    ]
+  },
+  "contentPattern": {
+    "structure": "first row is the header row (one cell per column); every other row is a data row; cells may hold paragraphs, bold text, lists and superscripts",
+    "observed": [
+      "Diagnosis details: Table: Stade GOLD / VEMS1 / Degré d'obstruction (4 rows)",
+      "Diagnosis details: Table: Groupe GOLD / Charge symptomatique / Risque d'exacerbation (A, B, E)",
+      "Treatment: Table: GOLD-ABE treatment groups",
+      "Treatment: Table: inhalation systems comparison",
+      "Exacerbations: Table: Initial / Critères (légère, modérée, sévère) with bulleted lists in cells"
+    ]
+  },
+  "options": [
+    {
+      "class": "no-header",
+      "label": "No header row"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use for any tabular data (classification stages, comparisons, criteria).",
+  "reuseGuidance": "Add a new option class rather than forking for striped or other table variants.",
+  "sourceUrl": "https://www.myastrazeneca.ch/fr/startseite/therapiegebiete/ri/copd.html"
+}

@@ -1,0 +1,31 @@
+{
+  "status": "success",
+  "url": "https://www.myastrazeneca.ch/fr/startseite/therapiegebiete/ri/copd.html",
+  "path": "fr/startseite/therapiegebiete/ri/copd",
+  "timestamp": "2026-10-20T10:04:28.145Z",
+  "title": "BPCO - Symptômes, diagnostic et prise en charge",
+  "template": "ri",
+  "blocks": [
+    "breadcrumb",
+    "hero",
+    "social-features",
+    "sub-nav-anchors",
+    "sub-nav-anchors",
+    "cta-cards",
+    "cta-cards",
+    "cta-cards",
+    "image-text-band",
+    "image-text-band",
+    "image-text-band",
+    "image-text-band",
+    "image-text-band",
+    "table-bordered",
+    "table-bordered",
+    "table-bordered",
+    "table-bordered",
+    "table-bordered",
+    "accordion-faq",
+    "references",
+    "split-teaser"
+  ]
+}

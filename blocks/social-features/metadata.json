@@ -1,0 +1,22 @@
+{
+  "variantName": "social-features",
+  "baseBlock": "social-features",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Static like / share / favourite icon row under the page title",
+    "notes": [
+      "Existing project block (blocks/social-features/ has .js and .css) built for this exact source component; reused."
+    ]
+  },
+  "contentPattern": {
+    "structure": "one row, one cell holding the optional share-channel icon; any other text is kept after the icon row",
+    "observed": [
+      "Social features: Like, bookmark and share icon row (cmp-socialFeatures)"
+    ]
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Static like / share / favourite icon row under the page title",
+  "reuseGuidance": "Existing project block; extend with option classes rather than forking.",
+  "sourceUrl": "https://www.myastrazeneca.ch/fr/startseite/therapiegebiete/ri/copd.html"
+}

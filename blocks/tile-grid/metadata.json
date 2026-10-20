@@ -1,0 +1,27 @@
+{
+  "variantName": "tile-grid",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-10-20T13:49:43.000Z",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "medium",
+    "purpose": "Three-column wrapping grid of teaser cards: image on top, tinted centred body with title, copy and indication links",
+    "imagePattern": "image-top"
+  },
+  "contentPattern": {
+    "structure": "one row per card, cells in any split: desktop picture (+ optional mobile picture), <h4> title, copy <p>s, a <p> of plain indication links separated by <br>",
+    "buttonCount": 0,
+    "imageCount": 2
+  },
+  "usage": {
+    "pagesUsing": [
+      "fr/startseite",
+      "fr/startseite/therapiegebiete/cvrm/chronischeniereninsuffizienz",
+      "fr/startseite/therapiegebiete/cvrm/herzinsuffizienz",
+      "fr/startseite/therapiegebiete/cvrm/diabetes"
+    ],
+    "reuseCount": 4,
+    "lastUsed": "2026-10-20T13:49:43.000Z"
+  }
+}

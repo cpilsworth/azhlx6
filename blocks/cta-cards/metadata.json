@@ -1,0 +1,57 @@
+{
+  "variantName": "cta-cards",
+  "baseBlock": "cta-cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "purpose": "Grid of cards: image on top, body with title, copy and a primary CTA pinned to the bottom (also image-only cards)",
+    "notes": [
+      "Existing project block (blocks/cta-cards/ has .js and .css) built for this exact source component; reused."
+    ]
+  },
+  "contentPattern": {
+    "structure": "desktop picture (+ optional mobile picture), optional <h5>/<h6> pretitle, <h4> title, copy <p>/<ul>, CTA as <p><strong><a></a></strong></p>; cells in any split",
+    "observed": [
+      "Overview (Définition): Three key-figure cards (Incidence en Suisse, Exacerbations, Mortalité) with icon image, title, text",
+      "Exacerbations: Single card 'Fiche d'information sur la BPCO' (image, title, copy, DE/FR links)",
+      "Recommendations and resources: Three resource cards (image, title, PDF download button)"
+    ]
+  },
+  "options": [
+    {
+      "class": "cols-3",
+      "label": "Three columns"
+    },
+    {
+      "class": "center",
+      "label": "Centred body"
+    },
+    {
+      "class": "border",
+      "label": "Bordered"
+    },
+    {
+      "class": "plain",
+      "label": "Plain (no tinted body)"
+    },
+    {
+      "class": "cols-2",
+      "label": "Two columns"
+    },
+    {
+      "class": "flush",
+      "label": "Flush section (no padding)"
+    },
+    {
+      "class": "space-md",
+      "label": "Section spacing medium"
+    },
+    {
+      "class": "title-core",
+      "label": "Core-coloured card titles"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Grid of cards: image on top, body with title, copy and a primary CTA pinned to the bottom (also image-only cards)",
+  "reuseGuidance": "Existing project block; extend with option classes rather than forking.",
+  "sourceUrl": "https://www.myastrazeneca.ch/fr/startseite/therapiegebiete/ri/copd.html"
+}
